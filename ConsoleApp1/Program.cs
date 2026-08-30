@@ -11,20 +11,32 @@
             {
                 Console.WriteLine("you can borrow this book ");
             }
+
             #endregion
             #region answer_02
             string title = "Refactoring";
-            switch (title) {
+            switch (title)
+            {
                 case "Clean code":
                     Console.WriteLine("Great choice");
                     break;
                 case "Refactoring":
                     Console.WriteLine("nice pick");
                     break;
-                default: Console.WriteLine("not hared of it ");
+                default:
+                    Console.WriteLine("not hared of it ");
                     break;
-                    #endregion
             }
+            #endregion
+            #region answer_03
+            string sizeLabkle =
+            pages > 300 ? sizeLabkle = "Long Book" : sizeLabkle = "Short Book";
+
+            #endregion
+
+
+
+
         }
     }
 }
