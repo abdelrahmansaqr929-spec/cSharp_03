@@ -67,6 +67,14 @@
                 break;
                 
             }
+            #endregion
+            #region answer_09
+            for (int i =0; i<books.Length; i++)
+            {
+                if (books[i] == "The Pragmatic Programmer")
+                    continue;
+                Console.WriteLine(books[i]);
+            }
 #endregion
 
 
