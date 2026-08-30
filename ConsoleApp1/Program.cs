@@ -75,10 +75,23 @@
                     continue;
                 Console.WriteLine(books[i]);
             }
-#endregion
+            #endregion
+            #region answer_10
+            PrintFristBook(books);
+            string[] emptyBooks = { };
+            PrintFristBook(emptyBooks);
+            #endregion
 
 
 
         }
-    }
+        static void PrintFristBook(string[] books)
+        {
+            if (books.Length == 0)
+                return;
+            for (int i = 0; i < 1; i++)
+            {
+                Console.WriteLine(books[i]);
+            }
+        }  }
 }
