@@ -41,7 +41,20 @@
             }
 
             #endregion
+            #region answer_05
+            int j= 0;
+            while (j < books.Length)
+            {
+                Console.WriteLine(books[j]);
+                j++;
+            }
+            #endregion
+            #region answer_06
+            int l = 0;
+            do { Console.WriteLine("checking book"); l++ ; }
+            while (l < 3);
 
+            #endregion
 
 
 
