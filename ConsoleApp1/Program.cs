@@ -55,6 +55,10 @@
             while (l < 3);
 
             #endregion
+            #region answer_07
+            foreach (string book in books)
+                { Console.WriteLine(book); }
+            #endregion
 
 
 
