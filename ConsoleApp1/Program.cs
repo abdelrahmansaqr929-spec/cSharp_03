@@ -59,6 +59,15 @@
             foreach (string book in books)
                 { Console.WriteLine(book); }
             #endregion
+            #region answer_08
+            for (int i = 0; i < books.Length; i++)
+            {
+                Console.WriteLine(books[i]);
+                if (books[i] == "Refactoring")
+                break;
+                
+            }
+#endregion
 
 
 
